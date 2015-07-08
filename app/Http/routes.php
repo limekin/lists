@@ -11,5 +11,5 @@
 |
 */
 
-Route::get('/', 'ListsController@index');
-Route::controller('lists', 'ListsController');
+Route::get('/', 'ListingsController@index');
+Route::resource('listing', 'ListingsController');
